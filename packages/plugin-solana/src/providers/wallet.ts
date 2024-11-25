@@ -5,7 +5,7 @@ import NodeCache from "node-cache";
 // Provider configuration
 const PROVIDER_CONFIG = {
     BIRDEYE_API: "https://public-api.birdeye.so",
-    MAX_RETRIES: 3,
+    MAX_RETRIES: 1,
     RETRY_DELAY: 2000,
     DEFAULT_RPC: "https://api.mainnet-beta.solana.com",
     TOKEN_ADDRESSES: {

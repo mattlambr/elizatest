@@ -4,7 +4,7 @@ export * from "./providers/trustScoreProvider.ts";
 export * from "./evaluators/trust.ts";
 
 import { Plugin } from "@ai16z/eliza";
-//import { executeSwap } from "./actions/swap.ts";
+import { executeSwap } from "./actions/swap.ts";
 //import take_order from "./actions/takeOrder";
 //import pumpfun from "./actions/pumpfun.ts";
 //import { executeSwapForDAO } from "./actions/swapDao";
@@ -21,7 +21,7 @@ export const solanaPlugin: Plugin = {
     name: "solana",
     description: "Solana Plugin for Eliza",
     actions: [
-        //executeSwap,
+        executeSwap,
         //pumpfun,
         //transferToken,
         //executeSwapForDAO,
